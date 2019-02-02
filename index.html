@@ -3,17 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <title>华为商城</title>
+        <link rel="stylesheet" href="css/swiper.min.css" />
         <link rel="stylesheet" href="css/index.css">
-        <style type="text/css">
-            img{
-                display: none;
-            }
-        </style>
-        <script type="text/javascript">
-
-
-
-        </script>
     </head>
     <body>
         <div class="content">
@@ -46,7 +37,7 @@
             </div>
             <!----- 第一行 ----->
             <div class="b">
-                <div id="logo" class="left"><a href="#"><img src="img/SXppnESYv4K11DBxDFc2.png"  alt="华为商城logo"  /></a></div>
+                <div id="logo" class="left"><a href="#"><img src="img/SXppnESYv4K11DBxDFc2.png" alt="华为商城logo" /></a></div>
                 <div id="navs" class="left">
                     <ul>
                         <li><a href="#">内容</a></li>
@@ -71,7 +62,114 @@
                 </div>
             </div>
             <!----- 第二行，轮播 ----->
+            <div class="c">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="#" alt="这是图片内容" /></div>
+                        <div class="swiper-slide"><img src="#" alt="这是图片内容" /></div>
+                        <div class="swiper-slide"><img src="#" alt="这是图片内容" /></div>
+                        <div class="swiper-slide"><img src="#" alt="这是图片内容" /></div>
+                        <div class="swiper-slide"><img src="#" alt="这是图片内容" /></div>
+                        <div class="swiper-slide"><img src="#" alt="这是图片内容" /></div>
+                        <div class="swiper-slide"><img src="#" alt="这是图片内容" /></div>
+                        <div class="swiper-slide"><img src="#" alt="这是图片内容" /></div>
+                        <div class="swiper-slide"><img src="#" alt="这是图片内容" /></div>
+                    </div>
+                    <!-- 添加分页 -->
+                    <div class="swiper-pagination"></div>
+                    <!-- 添加箭头 -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <!-- Swiper JS -->
+                <script src="js/swiper.min.js"></script>
+                <script>
+                    var swiper = new Swiper('.swiper-container', {
+                        pagination: '.swiper-pagination',
+                        nextButton: '.swiper-button-next',
+                        prevButton: '.swiper-button-prev',
+                        slidesPerView: 1,
+                        paginationClickable: true,
+                        spaceBetween: 30,
+                        loop: true
+                    });
+                </script>
 
+                <!-- 轮播左边导航 -->
+                <div class="c-left">
+                    <ul>
+                        <li>
+                            <div>
+                                <h4><a href="#">标题</a></h4>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4><a href="#">标题</a></h4>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4><a href="#">标题</a></h4>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4><a href="#">标题</a></h4>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4><a href="#">标题</a></h4>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <h4><a href="#">标题</a></h4>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                                <span><a href="#">内容</a></span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!----- 第三行，主体内容 ----->
+            <div class="d">
+                <!-- 第一行 -->
+                <div></div>
+                <!-- 第二行 -->
+                <div></div>
+                <!-- 第三行 -->
+                <div></div>
+                <!-- 第四行 -->
+                <div></div>
+                <!-- 第五行 -->
+                <div></div>
+                <!-- 第六行 -->
+                <div></div>
+            </div>
+            <!----- 页脚 ----->
+            <footer>
+                <p>Posted by: W3School</p>
+                <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+            </footer>
         </div>
     </body>
 </html>
