@@ -57,11 +57,6 @@ a:hover {
 }
 
 /***************** 第一行 *****************/
-/*
-            *logo
-            *ul li*6
-            *input
-            */
 .b {
     position: relative;
     margin: 20px auto;
@@ -136,3 +131,108 @@ a:hover {
 }
 
 /***************** 第二行,轮播 *****************/
+.c {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: 480px;
+}
+
+/* 轮播框架 Swiper */
+.swiper-container {
+    width: 100%;
+    height: 120%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: #83d0f2;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next {
+    margin-right: 380px;
+    opacity: .1;
+}
+
+.swiper-button-prev {
+    margin-left: 610px;
+    opacity: .1;
+}
+
+.swiper-pagination{
+    position: absolute;
+    text-align: inherit;
+    bottom: 120px !important;
+    left: 1080px !important;
+    width: auto !important;
+}
+
+.c-left {
+    position: absolute;
+    left: 391.50px;
+    top: 34px;
+    width: 160px;
+    height: 360px;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+}
+
+.c-left ul li {
+    list-style-type: none;
+}
+
+.c-left ul li div {
+    padding-top: 6px;
+    height: 54px;
+    width: 100%;
+    color: #a4a4a4;
+    border-bottom: 1px solid #a9a9a9;
+}
+.c-left ul li div span{
+    line-height: 1.8;
+    padding: 0 3px;
+}
+.c-left ul li:last-child div {
+    border: 0;
+}
+
+/***************** 第三行,主体内容 *****************/
+.d{
+    position: relative;
+    z-index: 20;
+    width: 1120px;
+    margin: 20px auto;
+    
+}
+.d div{
+    width: 100%;
+    height: 300px;
+    border: 1px dashed #000000;
+    margin: 20px auto;
+}
+.d div:first-child{
+    height: 120px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+/***************** 页脚 *****************/
+footer{
+    width: 1920px;
+    text-align: center;
+}
