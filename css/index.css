@@ -1,139 +1,138 @@
 * {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-	text-decoration: none;
-	color: #a4a4a4;
+    text-decoration: none;
+    color: #a4a4a4;
 }
 
 a:active,
 a:hover {
-	color: red;
+    color: red;
 }
 
 .content {
-	max-width: 1920px;
-	margin: 0 auto;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .left {
-	float: left;
+    float: left;
 }
 
 .right {
-	float: right;
+    float: right;
 }
 
 .nofloat {
-	float: none;
+    float: none;
 }
 
 /***************** 导航 *****************/
 .a {
-	width: 100%;
-	background-color: #f9f9f9;
+    width: 100%;
+    background-color: #f9f9f9;
 }
 
 .div-nav {
-	margin: 0 auto;
-	width: 1120px;
-	height: 28px;
+    margin: 0 auto;
+    width: 1120px;
+    height: 28px;
 }
 
 .nav-left,
 .nav-right {
-	font-size: 12px;
-	line-height: 16px;
-	text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
 }
 
 .nav-text {
-	display: inline-block;
-	border-right: 1px solid #a9a9a9;
-	margin-top: 6px;
-	padding: 0 12px;
+    display: inline-block;
+    border-right: 1px solid #a9a9a9;
+    margin-top: 6px;
+    padding: 0 12px;
 }
 
 /***************** 第一行 *****************/
 /*
-			*logo
-			*ul li*6
-			*input
-			*/
+            *logo
+            *ul li*6
+            *input
+            */
 .b {
-	position: relative;
-	margin: 20px auto;
-	width: 1120px;
-	height: 36px;
+    position: relative;
+    margin: 20px auto;
+    width: 1120px;
+    height: 36px;
 }
 
 #logo {
-	margin-right: 10px;
-	width: 200px;
-	height: 36px;
-	background-color: #F0F0F0;
+    margin-right: 10px;
+    width: 200px;
+    height: 36px;
 }
 
 #logo img {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 #navs {
-	line-height: 36px;
+    line-height: 36px;
 }
 
 #navs ul li {
-	font-size: 18px;
-	padding: 0 8px;
-	display: inline-block;
+    font-size: 18px;
+    padding: 0 8px;
+    display: inline-block;
 }
 
 #b-input {
-	position: absolute;
-	right: 0;
-	width: 300px;
+    position: absolute;
+    right: 0;
+    width: 300px;
 }
 
 #b-input-text {
-	width: 220px;
-	height: 28px;
-	border: 0;
-	margin-right: -4px;
-	background: transparent;
+    width: 220px;
+    height: 28px;
+    border: 0;
+    margin-right: -4px;
+    background: transparent;
 }
 
 #b-input-sub {
-	width: 40px;
-	height: 28px;
-	border: 0;
-	background: transparent;
-	cursor: pointer;
+    width: 40px;
+    height: 28px;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
 }
 
 #b-input-cent {
-	padding: 4px 16px;
-	border-radius: 22px;
-	background-color: #f0f0f0;
+    padding: 4px 16px;
+    border-radius: 22px;
+    background-color: #f0f0f0;
 }
 
 #b-input-cent input {
-	outline: none;
+    outline: none;
 }
 
 #b-input-float {
-	position: absolute;
-	right: 64px;
-	top: 4px;
-	height: 28px;
-	line-height: 28px;
+    position: absolute;
+    right: 64px;
+    top: 4px;
+    height: 28px;
+    line-height: 28px;
 }
 
 #b-input-float a {
-	margin-right: 4px;
-	font-size: 14px;
+    margin-right: 4px;
+    font-size: 14px;
 }
 
 /***************** 第二行,轮播 *****************/
