@@ -233,6 +233,6 @@ a:hover {
 }
 /***************** 页脚 *****************/
 footer{
-    width: 1920px;
+    width: 100%;
     text-align: center;
 }
